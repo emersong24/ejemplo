@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Ribeye+Marrow&display=swap');
+html{
+
+    font-size: 16px;
+    font-family: 'Kranky', cursive;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+body{
+    background-image: url(assets/img/imagen1.jpeg);
+    background-size: cover;
+    background-color: rgb(117, 178, 98);
+    text-align: center;
+    align-items: center;
+    padding-top: 0%;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(32, 97, 6, 0.923);
+    margin: 0%;
+    
+}
+.first-div,.second-div,.thirsd-div{
+    padding: 3rem;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: rgba(177, 100, 12, 0.845);
+    text-shadow: 1rem 1rem rgb(237, 100, 221);
+}
+h2{
+    color:rgba(38, 0, 255, 0.863);
+    text-shadow: 1px 2px rgb(7, 85, 83)
+}
